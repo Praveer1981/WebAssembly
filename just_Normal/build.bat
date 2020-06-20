@@ -1,0 +1,1 @@
+emcc -O3 --emrun -s WASM=1 -s ASSERTIONS=1 -o Hello.html hello.c

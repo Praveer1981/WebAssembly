@@ -1,0 +1,55 @@
+import memory env.memory;
+
+function quicksort(a:int, b:int) {
+  var i:int_ptr;
+  var k:int;
+  if (a >= b) { return  }
+  var e:int = a;
+  loop L_b {
+    var f:int_ptr = (e << 2) + 1024;
+    if (e < b) {
+      a = b;
+      var d:int_ptr = e;
+      loop L_d {
+        var h:int = f[0];
+        loop L_e {
+          var c:int = d + 1;
+          var g:int_ptr = (d << 2) + 1024;
+          var j:int = g[0];
+          if (eqz(j > h | d > b)) {
+            d = c;
+            continue L_e;
+          }
+        }
+        loop L_g {
+          c = a + -1;
+          if (eqz(a < e | (k = (i = (a << 2) + 1024)[0]) <= h)) {
+            a = c;
+            continue L_g;
+          }
+        }
+        if (d < a) {
+          g[0] = (c = j + k);
+          i[0] = (c = c - i[0]);
+          g[0] = g[0] - c;
+          continue L_d;
+        }
+      }
+    } else {
+      a = b
+    }
+    d = (a << 2) + 1024;
+    c = d[0] + f[0];
+    d[0] = c;
+    f[0] = (c = c - f[0]);
+    d[0] = d[0] - c;
+    quicksort(e, a + -1);
+    e = a + 1;
+    if (e < b) continue L_b;
+  }
+}
+
+function getOffset():int {
+  return 1024
+}
+

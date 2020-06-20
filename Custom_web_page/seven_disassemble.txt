@@ -1,0 +1,8 @@
+
+seven.wasm:	file format wasm 0x1
+
+Code Disassembly:
+
+000023 func[0] <_seven>:
+ 000024: 41 c6 00                   | i32.const 70
+ 000027: 0b                         | end
