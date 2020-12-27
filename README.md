@@ -1,9 +1,10 @@
 
-reference:
-https://anonyco.github.io/WasmFiddlePlusPlus/
-https://developer.mozilla.org/en-US/docs/WebAssembly   
-https://webassembly.org/getting-started/developers-guide/
-https://emscripten.org/docs/
+reference:<br />
+https://anonyco.github.io/WasmFiddlePlusPlus/<br />
+https://developer.mozilla.org/en-US/docs/WebAssembly<br />
+https://webassembly.org/getting-started/developers-guide/<br />
+https://emscripten.org/docs/<br />
+
 
 -g option allows you to get the wat file
 
@@ -14,3 +15,6 @@ I have created some demo applicaiton which shows how to use emscripten tool chan
 4. Custom_web_page
 5. Memory-Object-example
 6. QuickSort
+7. create Side module
+8. Dynamic linking - dlopen
+9. Dynamic linking - dynamicLibraries 
