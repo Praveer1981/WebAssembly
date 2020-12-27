@@ -6,9 +6,25 @@ https://webassembly.org/getting-started/developers-guide/<br />
 https://emscripten.org/docs/<br />
 
 
--g option allows you to get the wat file
+How to install emsdk? <br />
+https://emscripten.org/docs/getting_started/downloads.html
+On windows platform :<br />
+1. get the emsdk repo <br />
+   `git clone https://github.com/emscripten-core/emsdk.git`
+2. Change directory to `emsdk`   
+   `cd emsdk`
+3. Fetch the latest version of the emsdk (not needed the first time you clone)
+   `git pull`
+4. Download and install the latest SDK tools
+  `emsdk install latest`
+5. Make the "latest" SDK "active" for the current user. (writes .emscripten file)
+   `emsdk activate latest`
+6. Activate PATH and other environment variables in the current terminal
+   `emsdk_env.bat`
 
-I have created some demo applicaiton which shows how to use emscripten tool chain to compile C/C++ code to the wasm.
+
+List of some sample:
+
 1. just_Normal
 2. using_emmake
 3. Call_JS_Fn_To_Wasm
