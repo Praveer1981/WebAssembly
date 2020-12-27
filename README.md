@@ -8,7 +8,7 @@ https://emscripten.org/docs/<br />
 
 -g option allows you to get the wat file
 
-I have created some demo applicaiton which shows how to use emscripten tool change to compile C/C++ code to the wasm.
+I have created some demo applicaiton which shows how to use emscripten tool chain to compile C/C++ code to the wasm.
 1. just_Normal
 2. using_emmake
 3. Call_JS_Fn_To_Wasm
