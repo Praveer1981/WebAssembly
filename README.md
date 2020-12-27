@@ -10,17 +10,17 @@ How to install emsdk? <br />
 https://emscripten.org/docs/getting_started/downloads.html
 On windows platform :<br />
 1. get the emsdk repo <br />
-   `git clone https://github.com/emscripten-core/emsdk.git`
-2. Change directory to `emsdk`   
-   `cd emsdk`
-3. Fetch the latest version of the emsdk (not needed the first time you clone)
-   `git pull`
-4. Download and install the latest SDK tools
-  `emsdk install latest`
-5. Make the "latest" SDK "active" for the current user. (writes .emscripten file)
-   `emsdk activate latest`
-6. Activate PATH and other environment variables in the current terminal
-   `emsdk_env.bat`
+   `git clone https://github.com/emscripten-core/emsdk.git`<br />
+2. Change directory to `emsdk`<br />
+   `cd emsdk`<br />
+3. Fetch the latest version of the emsdk (not needed the first time you clone)<br />
+   `git pull`<br />
+4. Download and install the latest SDK tools<br />
+  `emsdk install latest`<br />
+5. Make the "latest" SDK "active" for the current user. (writes .emscripten file)<br />
+   `emsdk activate latest`<br />
+6. Activate PATH and other environment variables in the current terminal<br />
+   `emsdk_env.bat`<br />
 
 
 List of some sample:
